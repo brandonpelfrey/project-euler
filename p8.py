@@ -26,4 +26,3 @@ for i in xrange(len(S)-k):
   P = reduce(lambda x,y: x*y, digits, 1)
   M = max(M, P)
 print M
-
